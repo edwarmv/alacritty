@@ -1,0 +1,24 @@
+import = ["~/.config/alacritty/tokyonight_storm.toml"]
+[font]
+size = 17
+[font.normal]
+family = "PragmataPro Liga"
+style = "Regular"
+[font.bold]
+family = "PragmataPro Liga"
+style = "Bold"
+[font.italic]
+family = "PragmataPro Liga"
+style = "Italic"
+[font.bold_italic]
+family = "PragmataPro Liga"
+style = "Bold Italic"
+
+[window]
+padding = { x = 9, y = 9 }
+decorations = "Buttonless"
+dynamic_padding = true
+option_as_alt = "OnlyRight"
+
+[mouse]
+hide_when_typing = true
